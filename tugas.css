@@ -1,0 +1,948 @@
+/*T.Tara Wanesha (33222004)*/
+
+/* font-face*/
+
+@font-face {
+        font-family: tulisan_keren2;
+        src: url(FontFace/Morning\ Wind.ttf);
+}
+
+ @font-face {
+        font-family: tulisan_keren3;
+        src: url(FontFace/Stork\ Delivery.ttf);
+}
+@font-face{
+    font-family: tulisan_keren4;
+    src: url(FontFace/RoyaltyCriminals.ttf);
+}
+@font-face {
+    font-family: tulisan_keren5;
+    src: url(FontFace/LucySaidOkPersonalUseItalic-OV9ee.ttf);
+}
+
+/*stlye yang dipakai bersamaan */
+
+p{
+    font-family: tulisan_keren3;
+    font-size: larger;
+}
+
+/*foto*/
+.gambar{
+    width: 50%;
+    float: left;
+    margin-right: 20px;
+}
+  
+.img{
+    width: 300px;
+    height: 300px;
+}
+
+.pic{
+    width: 500px;
+    height: 500px;
+}
+
+.logo{
+    width: 310px;
+    height: 300px;
+}
+/*foto*/
+
+/*catatan kecil di bawah tabel*/
+.senang{
+    display: inline-block;
+    padding:10px;
+    margin-top: 10px;
+    border-radius: 20PX;
+    font-family:'Times New Roman';
+    font-size: small;
+    background-color: darkgrey;
+}
+/*catatan kecil di bawah tabel*/
+
+/*table*/
+.biodata table{
+    font-family: 'Times New Roman';
+    color: #232323;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: larger;
+}
+.biodata table, th, td {
+   border: dashed;
+    padding: 10px 10px; 
+}
+/*table*/
+
+/*form*/
+.register{
+    box-sizing: border-box;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+}
+.form-fan{
+    display: block;
+}
+
+.form-control{
+    width: 100%;
+    padding: 12px;
+    border:1px solid black;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: 'Times New Roman';
+}
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: 40px;
+    font-family: tulisan_keren5;
+}
+/*form*/
+
+/*stlye untuk bersama*/
+
+/*########################################*/
+    
+/* STYLE MINE */
+
+h1{
+    display: inline-block;
+    padding:30px;
+    margin-right: 50px;
+    background-color: #c88ea7;
+    border-radius: 10px; 
+    position: initial;
+    font-family: tulisan_keren4;
+}
+
+/*menunya*/
+.mine{
+    width: 100%;
+    padding: 10px;
+    border-radius: 50%;
+    background-color:#c88ea7;
+}
+.mine ul li{
+    display: inline-block;
+    padding:30px;
+    margin-right: 50px;
+    background-color: #9babb8;
+    border-radius: 50%; 
+    position: initial;
+    font-family: tulisan_keren4;
+    
+}
+.mine ul li a{
+    text-decoration: none; 
+    color: black ;
+    font-size:xx-large;
+}
+.mine ul li:hover{
+    background-color: maroon;
+}
+/*menunya*/
+
+/*footer*/
+.footer{
+    width: 100%;
+    margin:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+.text-footer{
+    text-align: center;
+    padding: 20px;
+    color: gold;
+    text-shadow: 1px 1px 1px black;
+    font-family:'Times New Roman';
+    font-style: italic;
+    }
+/*footer*/
+    
+/*MINE*/
+
+/*########################################*/
+
+/*STLYE FOR BTS*/
+
+/*untuk per judulnya*/
+.judul{
+    display: inline-block;
+    padding:40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color:  #Be6DB7;
+    border-radius: 20PX;
+    position: static;
+    font-family: tulisan_keren2;
+    font-size: xx-large;
+    font-style: bold;
+}
+/*untuk per judulnya*/
+
+/*untuk menunya*/
+.menu{
+    width: 100%;
+    padding:20px;
+    margin-right: 20px;
+    background-color: #Be6DB7;
+    border-radius: 20PX;
+    position: fixed;
+    font-family: tulisan_keren2;
+    text-align: center;
+    font-size: larger;
+}
+.menu ul li{
+    display: inline-block;
+    padding:20px;
+    margin-right: 20px;
+    background-color: #80489c;
+    border-radius: 50%;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black ;
+}
+.menu ul li:hover{
+    background-color: darkmagenta;
+}
+/*untuk menunya*/
+
+/*untuk bagian per linknya*/
+.connect{
+    width: 100%;
+    height: auto;
+    padding: auto;
+}
+    .connect ul li{
+        display: inline-block;
+        padding:30px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+        background-color: #80489c;
+        border-radius: 50PX;
+        color: black;
+        font-size: larger;
+        font-family: tulisan_keren2;
+        
+    }
+    .connect ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .connect ul li:hover{
+        background-color: darkmagenta;
+    }
+/*untuk bagian per linknya*/
+
+/*untuk paragraf ragam acara*/
+.text-paragraf{
+    padding:50px;
+        margin: 50px;
+        background-color: #Be6DB7;
+        border-radius: 10PX;
+        position: initial;
+        font-family: tulisan_keren2;
+        text-align: center;
+        font-size: larger;
+}
+/*untuk paragraf ragam acara*/
+
+/*untuk submit*/
+.army-submit{
+    background-color:#80489c;
+    color: white;
+    padding: 50px 50px;
+    border:none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: tulisan_keren5;
+    font-size: xx-large;
+}
+    .army-submit:hover{
+        background-color: darkmagenta;
+    }
+/*untuk submit*/
+
+/*style next*/
+.next{
+    width: 100%;
+    padding:auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #Be6DB7;
+    border-radius: 20PX;
+    position: initial;
+    font-family: tulisan_keren2;
+    text-align: center;
+    font-size: larger;
+}
+.next ul li{
+    display: inline-block;
+    padding:50px;
+    margin-right: 50px;
+    background-color: #80489c;
+    border-radius: 50%;
+}
+.next ul li a{
+    text-decoration: none;
+    color: black ;
+}
+.next ul li:hover{
+    background-color: darkmagenta;
+}
+/*style next*/
+
+/*BTS*/
+
+/*########################################*/
+
+/* Style for TXT*/
+
+/*untuk foto*/
+.gmbr{
+    width: 500px;
+    height: 300px;
+}
+/*untuk foto*/
+
+/*untuk bagian per judul*/
+.judul2{
+    display: inline-block;
+    padding:40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #47b5ff;
+    border-radius: 20PX;
+    position: static;
+    font-family: tulisan_keren2;
+    font-size: xx-large;
+    color: white;
+}
+/*untuk bagian per judul*/
+
+/*untuk menunya*/
+.menu2{
+    width: 100%;
+    padding:20px;
+    margin-right: 20px;
+    background-color:#4942E4;
+    border-radius: 20PX;
+    position:fixed;
+    font-family: tulisan_keren2;
+    text-align: center;
+    font-size: larger;
+}
+.menu2 ul li{
+    display: inline-block;
+    padding:20px;
+    margin-right: 20px;
+    background-color: #42C2FF;
+    border-radius: 50%;
+}
+.menu2 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu2 ul li:hover{
+    background-color:#19A7CE ;
+}
+/*untuk menunya*/
+
+/*untuk bagian linknya*/
+.connect2{
+    width: 100%;
+    height: auto;
+    padding: auto;    
+}
+    .connect2 ul li{
+        display: inline-block;
+        padding:20px;
+        margin-right: 20px;
+        background-color: #42C2FF;       
+        border-radius: 50PX;
+        color: white;
+        font-family: tulisan_keren2;
+        font-size: larger;
+    }
+    .connect2 ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .connect2 ul li:hover{
+        background-color: #00B4D8;
+    }
+/*untuk bagian linknya*/
+
+/*untuk ragam agara*/
+.text-paragraf2{
+    padding:50px;
+    margin: 50px;
+    background-color: #47b5ff;
+    border-radius: 10PX;
+    position: initial;
+    font-family: tulisan_keren2;
+    text-align: center;
+    font-size: larger;
+    color: white;
+}
+.todo ul li{
+        display: inline-block;
+        padding:80px;
+        margin-right: 50px;
+        background-color: #42C2FF;       
+        border-radius: 50PX;
+        color: white;
+        font-family: tulisan_keren2;
+        font-size: xx-large;
+}
+.todo ul li a{
+    text-decoration: none;
+    color: white;
+}
+.todo ul li:hover{
+    background-color: #00B4D8;
+}
+/*untuk ragam acara*/
+
+/*untuk submit*/
+.moa-submit{
+    background-color:#47b5ff;
+    color: white;
+    padding: 50px 50px;
+    border:none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: tulisan_keren5;
+    font-size: xx-large;
+}
+    .moa-submit:hover{
+        background-color: #00B4D8;
+    }
+/*untuk submit*/
+
+/*style next*/
+.next2{
+    width: 100%;
+    padding:auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #4942E4;
+    border-radius: 20PX;
+    position: initial;
+    font-family: tulisan_keren2;
+    text-align: center;
+    font-size: larger;
+}
+.next2 ul li{
+    display: inline-block;
+    padding:50px;
+    margin-right: 50px;
+    background-color: #42C2FF;
+    border-radius: 50%;
+}
+.next2 ul li a{
+    text-decoration: none;
+    color: black ;
+}
+.next2 ul li:hover{
+    background-color: #00B4D8;
+}
+/*style next*/
+
+/* TXT */
+
+/*########################################*/
+
+/* Style For SVT */
+
+/*untuk bagian per judulnya*/
+.judul3{
+    display: inline-block;
+    padding:40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #B4CDE6;
+    border-radius: 20PX;
+    position: static;
+    font-family: tulisan_keren2;
+    font-size: xx-large;
+}
+/*untuk bagian per judulnya*/
+
+/*untuk bagian menunya*/
+.menu3{
+    width: 100%;
+    padding:20px;
+    margin-right: 20px;
+    background-color:#B4CDE6;
+    border-radius: 20PX;
+    position:fixed;
+    font-family: tulisan_keren2;
+    text-align: center;
+    font-size: larger;
+}
+    .menu3 ul li{
+        display: inline-block;
+        padding:20px;
+        margin-right: 20px;
+        background-color: #4CACBC;
+        border-radius: 50%;
+    }
+    .menu3 ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .menu3 ul li:hover{
+        background-color: #FBC5C5;
+    }
+/*untuk bagian menunya*/
+
+/*untuk bagian linknya*/
+.connect3{
+    width: 100%;
+    height: auto;
+    padding: auto;    
+}
+    .connect3 ul li{
+        display: inline-block;
+        padding:30px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+        background-color:#4CACBC;       
+        border-radius: 50PX;
+        color: black;
+        font-family: tulisan_keren2;
+        font-size: larger;
+    }
+    .connect3 ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .connect3 ul li:hover{
+        background-color: #FBC5C5;
+    }
+/*untuk bagian linknya*/
+
+/*untuk teks ragam acara*/
+.text-paragraf3{
+    padding:50px;
+    margin: 50px;
+    background-color: #B4CDE6;
+    border-radius: 10PX;
+    position: initial;
+    font-family: tulisan_keren2;
+    text-align: center;
+    font-size: larger;
+}
+/*untuk teks ragam acara*/
+
+/*untuk submit*/
+.carat-submit{
+    background-color:#4CACBC;
+    color: white;
+    padding: 50px 50px;
+    border:none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: tulisan_keren5;
+    font-size: xx-large;
+}
+    .carat-submit:hover{
+        background-color: #FBC5C5;
+    }
+/*untuk submit*/
+
+/*style next*/
+.next3{
+    width: 100%;
+    padding:auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #B4CDE6;
+    border-radius: 20PX;
+    position: initial;
+    font-family: tulisan_keren2;
+    text-align: center;
+    font-size: larger;
+}
+.next3 ul li{
+    display: inline-block;
+    padding:50px;
+    margin-right: 50px;
+    background-color: #4CACBC;
+    border-radius: 50%;
+}
+.next3 ul li a{
+    text-decoration: none;
+    color: black ;
+}
+.next3 ul li:hover{
+    background-color: #FBC5C5;
+}
+/*style next*/
+
+/*SVT*/
+
+/*########################################*/
+
+/*Style for Enhypen*/
+
+/*untuk bagian per judulnya*/
+.judul4{
+    display: inline-block;
+    padding:40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #c7e9b0;
+    border-radius: 20PX;
+    position: static;
+    font-family: tulisan_keren2;
+    font-size: xx-large;
+}
+/*untuk bagian per judulnya*/
+
+/*untuk bagian menunya*/
+.menu4{
+    width: 100%;
+    padding:20px;
+    margin-right: 20px;
+    background-color:#c7e9b0;
+    border-radius: 20PX;
+    position:fixed;
+    font-family: tulisan_keren2;
+    text-align: center;
+    font-size: larger;
+}
+    .menu4 ul li{
+        display: inline-block;
+        padding:20px;
+        margin-right: 20px;
+        background-color: #a4d0a4;
+        border-radius: 50%;
+    }
+    .menu4 ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .menu4 ul li:hover{
+        background-color: #609966;
+    }
+/*untuk bagian menunya*/
+
+/*untuk bagian linknya*/
+.connect4{
+    width: 100%;
+    height: auto;
+    padding: auto;
+}
+    .connect4 ul li{
+        display: inline-block;
+        padding:20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        background-color:#a4d0a4;       
+        border-radius: 50PX;
+        color: black;
+        font-family: tulisan_keren2;
+        font-size: x-large;
+    }
+    .connect4 ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .connect4 ul li:hover{
+        background-color: #609966;
+    }
+/*untuk bagian linknya*/
+
+/*untuk ragam acara*/
+.text-paragraf4{
+    padding:50px;
+    margin: 50px;
+    background-color: #c7e9b0;
+    border-radius: 10PX;
+    position: initial;
+    font-family: tulisan_keren2;
+    text-align: center;
+    font-size: larger;
+}
+
+.eno ul li{
+    display: inline-block;
+    padding:80px;
+    margin-right: 50px;
+    background-color: #a4d0a4;       
+    border-radius: 50PX;
+    color: black;
+    font-family: tulisan_keren2;
+    font-size: xx-large;
+}
+    .eno ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .eno ul li:hover{
+        background-color: #609966;
+    }
+/*untuk ragam acara*/   
+
+/*untuk submit*/
+.engene-submit{
+    background-color:#a4d0a4;
+    color: black;
+    padding: 50px 50px;
+    border:none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: tulisan_keren5;
+    font-size: xx-large;
+}
+    .engene-submit:hover{
+        background-color: #609966;
+    }
+/*untuk submit*/
+
+/*style next*/
+.next4{
+    width: 100%;
+    padding:auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #c7e9b0;
+    border-radius: 20PX;
+    position: initial;
+    font-family: tulisan_keren2;
+    text-align: center;
+    font-size: larger;
+}
+.next4 ul li{
+    display: inline-block;
+    padding:50px;
+    margin-right: 50px;
+    background-color: #a4d0a4;
+    border-radius: 50%;
+}
+.next4 ul li a{
+    text-decoration: none;
+    color: black ;
+}
+.next4 ul li:hover{
+    background-color: #609966;
+}
+/*style next*/
+
+/*Enhypen*/
+
+/*########################################*/
+
+/*Style for Ateez*/
+
+/*untuk bagian per judulnya*/
+.judul5{
+    display: inline-block;
+    padding:40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #C8B6A6;
+    border-radius: 20PX;
+    position: static;
+    font-family: tulisan_keren2;
+    font-size: xx-large;
+}
+/*untuk bagian per judulnya*/
+
+/*untuk menunya*/
+.menu5{
+    width: 100%;
+    padding:20px;
+    margin-right: 20px;
+    background-color:#C8B6A6;
+    border-radius: 20PX;
+    position:fixed;
+    font-family: tulisan_keren2;
+    text-align: center;
+    font-size: larger;
+}
+    .menu5 ul li{
+        display: inline-block;
+        padding:20px;
+        margin-right: 20px;
+        background-color: #815B5B;
+        border-radius: 50%;
+    }
+    .menu5 ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .menu5 ul li:hover{
+        background-color: #9E7676;
+    }
+/*untuk menunya*/
+
+/*untuk bagian linknya*/
+.connect{
+    width: 100%;
+    height: auto;
+    padding: auto;        
+}
+    .connect5 ul li{
+        display: inline-block;
+        padding:30px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+        background-color:#815B5B;       
+        border-radius: 50PX;
+        color: black;
+        font-family: tulisan_keren2;
+        font-size: larger;
+    }
+    .connect5 ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .connect5 ul li:hover{
+        background-color: #9E7676;
+    }
+/*untuk bagian linknya*/
+
+/*untuk ragam acara*/
+.text-paragraf5{
+    padding:50px;
+    margin: 50px;
+    background-color: #C8B6A6;
+    border-radius: 10PX;
+    position: initial;
+    font-family: tulisan_keren2;
+    text-align: center;
+    font-size: larger;
+}
+
+.wantezz ul li{
+    display: inline-block;
+    padding:80px;
+    margin-right: 50px;
+    background-color: #815B5B;       
+    border-radius: 50PX;
+    color: black;
+    font-family: tulisan_keren2;
+    font-size: xx-large;
+}
+    .wantezz ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .wantezz ul li:hover{
+        background-color: #9E7676;
+    }
+/*untuk ragam acara*/
+
+/*untuk submit*/
+.atiny-submit{
+    background-color:#815B5B;
+    color: black;
+    padding: 50px 50px;
+    border:none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: tulisan_keren5;
+    font-size: xx-large;
+}
+.atiny-submit:hover{
+    background-color: #9E7676;
+}
+/*untuk submit*/
+
+/*style next*/
+.next5{
+    width: 100%;
+    padding:auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #C8B6A6;
+    border-radius: 20PX;
+    position: initial;
+    font-family: tulisan_keren2;
+    text-align: center;
+    font-size: larger;
+}
+.next5 ul li{
+    display: inline-block;
+    padding:50px;
+    margin-right: 50px;
+    background-color: #815B5B;
+    border-radius: 50%;
+}
+.next5 ul li a{
+    text-decoration: none;
+    color: black ;
+}
+.next5 ul li:hover{
+    background-color: #9E7676;
+}
+/*style next*/
+
+/*Atees*/
+
+/*########################################*/
+
+/*Playlist*/
+.song{
+    width: 450px;
+    height: 100px;
+}
+
+.judul6{
+    display: inline-block;
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #FF90BB;
+    border-radius: 20PX;
+    font-family: tulisan_keren2;
+    text-align: center;
+    font-size:xx-large;
+}
+
+.judulplaylist{
+    width: 100%;
+    padding:20px;
+    background-color: #FF90BB;
+    border-radius: 20PX;
+    position: fixed;
+    font-family: tulisan_keren2;
+    text-align: center;
+    font-size:xx-large;
+    border-radius: 100%;
+}
+
+.playlist ul li{
+    display: inline-block;
+    padding:10px;
+    width: 50px;
+    background-color: #DD58D6;
+    font-size: medium;
+    text-align: center
+
+}
+.playlist ul li a{
+    text-decoration: none;
+    color: black ;
+}
+.playlist ul li:hover{
+    background-color: mediumorchid;
+}
+/*playlist*/
+
+
